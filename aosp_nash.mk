@@ -12,7 +12,10 @@ $(call inherit-product, device/motorola/nash/device.mk)
 
 # Boot Animtion
 TARGET_BOOTANIMATION_HALF_RES := true
+TARGET_BOOT_ANIMATION_RES := 1440
 
+# Google Apps
+TARGET_GAPPS_ARCH := arm64
 
 # Device identifiers
 BUILD_FINGERPRINT := motorola/nash/nash:8.0.0/OPXS27.109-34-10/5:user/release-keys
